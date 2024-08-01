@@ -1,0 +1,127 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  z-index: 9999;
+  padding: 10px;
+  background-color: #f5ebe9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e8e3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.boton:last-child {
+    margin-right: 0; 
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    font-style: bold;
+}
+
+.titulo-estilo {
+    background-color: rgba(169, 169, 169, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-size: 20px;
+  color: #957dad;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
